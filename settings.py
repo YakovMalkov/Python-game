@@ -8,12 +8,12 @@ class Settings():
           self.bg_color = (91, 119, 172)
 
           # Настройки корабля
-          self.ship_speed = 0.5
+          self.ship_speed = 0.8
 
           # Параметры снаряда
           self.bullet_speed = 1.5
           self.bullet_width = 7
           self.bullet_height = 19
-          self.bullet_color = (60, 60, 60)
+          self.bullet_color = (225, 195, 28)
           self.bullets_allowed = 15
 

@@ -13,7 +13,7 @@ class Alien(Sprite):
         self.rect = self.image.get_rect()
         # Каждый новый пришелец появляется в левом верхнем углу экрана.
         self.rect.x = self.rect.width
-        self.rect.y = self.rect.height
+        self.rect.y = self.rect.height + 1000000
         # Сохранение точной горизонтальной позиции пришельца.
         self.x = float(self.rect.x)
 
